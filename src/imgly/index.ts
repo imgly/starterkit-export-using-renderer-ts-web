@@ -104,5 +104,4 @@ export async function initExportUsingRenderer(cesdk: CreativeEditorSDK) {
   // - Export using CE.SDK Renderer action
   // - Custom navigation bar layout
   setupRendererExport(cesdk);
-
 }
