@@ -3,7 +3,7 @@
 The Renderer brings CE.SDK's design engine to your backend with fast, compliant, enterprise-ready export for images, PDFs, and video, enabling organizations to generate media at scale with full fidelity and predictable performance. Built with [CE.SDK](https://img.ly/creative-sdk) by [IMG.LY](https://img.ly), this starterkit demonstrates how to export videos using the CE.SDK Renderer service for server-side rendering.
 
 <p>
-  <a href="https://img.ly/docs/cesdk/js/starterkits/export-using-renderer-exprndr/">Documentation</a>
+  <a href="https://img.ly/docs/cesdk/js/starterkits/export-using-renderer-exprnd/">Documentation</a>
 </p>
 
 ![Export Using Renderer starter kit showing a video editing interface with server-side rendering export](./hero.webp)
