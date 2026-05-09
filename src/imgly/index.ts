@@ -7,7 +7,7 @@
  * @see https://img.ly/docs/cesdk/renderer/overview/
  */
 
-import CreativeEditorSDK from '@cesdk/cesdk-js';
+import type CreativeEditorSDK from '@cesdk/cesdk-js';
 
 import {
   BlurAssetSource,
