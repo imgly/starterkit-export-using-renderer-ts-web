@@ -19,7 +19,7 @@ export const DEFAULT_RENDERER_URL = 'https://gpu-api.img.ly/export';
  * Gets the renderer proxy URL from environment or returns the default.
  */
 export function getRendererURL(): string {
-  const envUrl = import.meta.env.VITE_RENDERER_PROXY_URL;
+  const envUrl = (undefined as string | undefined);
   if (envUrl) {
     return envUrl;
   }
