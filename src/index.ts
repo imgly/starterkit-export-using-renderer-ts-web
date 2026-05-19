@@ -3,7 +3,7 @@
  *
  * Video editor with server-side rendering export via CE.SDK Renderer API.
  *
- * @see https://img.ly/docs/cesdk/starterkits/export-using-renderer/
+ * @see https://img.ly/docs/cesdk/js/getting-started/
  */
 
 import CreativeEditorSDK from '@cesdk/cesdk-js';
@@ -16,18 +16,16 @@ import { resolveAssetPath } from './imgly/resolveAssetPath';
 // ============================================================================
 
 const config = {
-  // Unique user identifier for analytics (customize for your app)
-  userId: 'starterkit-export-using-renderer-user'
+  userId: 'starterkit-export-using-renderer-user',
 
-  // Local assets (uncomment and set path for self-hosted assets)
-  // baseURL: `/assets/`,
+  // IMG.LY CDN (for quick testing only, NOT recommended for production)
 
-  // License key (required for production)
-  // license: 'YOUR_LICENSE_KEY',
+  // Local assets for development
+
 };
 
 // ============================================================================
-// Initialize Export Using Renderer
+// Initialize Export Using Renderer Editor
 // ============================================================================
 
 CreativeEditorSDK.create('#cesdk_container', config)

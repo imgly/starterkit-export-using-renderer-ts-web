@@ -48,12 +48,8 @@ Open `http://localhost:5173` in your browser.
 Configure the CE.SDK Renderer endpoint for server-side video rendering:
 
 ```typescript
-import { getRendererURL, DEFAULT_RENDERER_URL } from './imgly';
+import { getRendererURL } from './imgly';
 
-// Default renderer URL (cloud-hosted)
-const rendererUrl = DEFAULT_RENDERER_URL;
-
-// Or use a custom renderer endpoint
 const customRendererUrl = 'https://your-renderer.example.com/api/render';
 ```
 
@@ -125,12 +121,12 @@ src/
 
 ## Troubleshooting
 
-| Issue | Solution |
-|-------|----------|
-| Editor doesn't load | Verify assets are accessible at `baseURL` |
-| Assets don't appear | Check `public/assets/` directory exists |
-| Export fails | Verify renderer URL is correct and accessible |
-| Watermark appears | Add your license key |
+| Issue               | Solution                                      |
+| ------------------- | --------------------------------------------- |
+| Editor doesn't load | Verify assets are accessible at `baseURL`     |
+| Assets don't appear | Check `public/assets/` directory exists       |
+| Export fails        | Verify renderer URL is correct and accessible |
+| Watermark appears   | Add your license key                          |
 
 ## Documentation
 
