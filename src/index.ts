@@ -11,6 +11,7 @@ import CreativeEditorSDK from '@cesdk/cesdk-js';
 import { initExportUsingRenderer } from './imgly';
 import { resolveAssetPath } from './imgly/resolveAssetPath';
 
+
 // ============================================================================
 // Configuration
 // ============================================================================
