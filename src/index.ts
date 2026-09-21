@@ -3,13 +3,14 @@
  *
  * Video editor with server-side rendering export via CE.SDK Renderer API.
  *
- * @see https://img.ly/docs/cesdk/js/getting-started/
+ * @see https://img.ly/docs/cesdk/js/get-started/overview-e18f40/
  */
 
 import CreativeEditorSDK from '@cesdk/cesdk-js';
 
 import { initExportUsingRenderer } from './imgly';
 import { resolveAssetPath } from './imgly/resolveAssetPath';
+
 
 // ============================================================================
 // Configuration
@@ -40,7 +41,7 @@ CreativeEditorSDK.create('#cesdk_container', config)
     // ============================================================================
 
     // Load a sample video scene for demonstration
-    await cesdk.loadFromURL(
+    await cesdk.load(
       resolveAssetPath('/assets/example-video-motion.scene')
     );
   })
