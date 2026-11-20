@@ -61,8 +61,10 @@ export async function initExportUsingRenderer(cesdk: CreativeEditorSDK) {
   // ============================================================================
 
   // Disable placeholder and preview features (required for renderer export)
-  cesdk.feature.set('ly.img.placeholder', false);
-  cesdk.feature.set('ly.img.preview', false);
+  cesdk.features.configure({
+    'ly.img.placeholder': { enabled: false },
+    'ly.img.preview': { enabled: false }
+  });
 
   // ============================================================================
   // Asset Source Plugins
